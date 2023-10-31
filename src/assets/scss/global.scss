@@ -1,0 +1,135 @@
+$font-size: 13px;
+$font-size-m: 15px;
+$main-color: #ff9103;
+@mixin border {
+  //border: 1px solid #909090;
+  border: 1px solid #68696c;
+}
+
+
+@mixin clear {
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin ellipsis {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+
+@mixin horizontal($type: position) {
+  @if $type == position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  @if $type == transform {
+    position: relative;
+    left: 50%;
+    @include x(-50%);
+  }
+}
+
+
+@mixin vertical($type: position) {
+  @if $type == position {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+  @if $type == transform {
+    position: relative;
+    top: 50%;
+    @include y(-50%);
+  }
+}
+
+@mixin center($type: position) {
+  @if $type == position {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  @if $type == transform {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+}
+
+@mixin transform($value) {
+  transform: $value;
+  -ms-transform: $value;
+  -moz-transform: $value;
+  -webkit-transform: $value;
+  -o-transform: $value;
+}
+
+@mixin linearGradient($deg: -120deg, $rgba: $color1, $rgba2: $color2) {
+  background: -webkit-linear-gradient($deg, $rgba, $rgba2);
+  background: -o-linear-gradient($deg, $rgba, $rgba2);
+  background: -moz-linear-gradient($deg, $rgba, $rgba2);
+  background: linear-gradient($deg, $rgba, $rgba2);
+}
+
+@mixin placeholder($type, $value, $value2, $value3: "normal") {
+  @if $type == input {
+    input::-webkit-input-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    input:-moz-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    input::-moz-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    input:-ms-input-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+  }
+  @if $type == textarea {
+    textarea::-webkit-input-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    textarea:-moz-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    textarea::-moz-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+    textarea:-ms-input-placeholder {
+      font-size: $value;
+      color: $value2;
+      font-weight: $value3;
+    }
+  }
+}

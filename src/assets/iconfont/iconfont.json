@@ -1,0 +1,93 @@
+{
+  "id": "3292485",
+  "name": "月下鹿",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18176543",
+      "name": "暂停",
+      "font_class": "pause-full",
+      "unicode": "ea8c",
+      "unicode_decimal": 60044
+    },
+    {
+      "icon_id": "4735884",
+      "name": "重新录制",
+      "font_class": "zhongxinluzhi",
+      "unicode": "ea77",
+      "unicode_decimal": 60023
+    },
+    {
+      "icon_id": "11808714",
+      "name": "播放",
+      "font_class": "icon_play",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1428341",
+      "name": "输入正确",
+      "font_class": "shuruzhengque",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "4955291",
+      "name": "停止",
+      "font_class": "tingzhi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "18170145",
+      "name": "麦克风,声音,录音,录制声音",
+      "font_class": "record-sound",
+      "unicode": "e971",
+      "unicode_decimal": 59761
+    },
+    {
+      "icon_id": "8758476",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "22572626",
+      "name": "鹿角-fill",
+      "font_class": "lujiao-fill",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "8902438",
+      "name": "声波",
+      "font_class": "shengbo1",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "20316554",
+      "name": "播放",
+      "font_class": "lianxi2hebing-10",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6345993",
+      "name": "sex_man",
+      "font_class": "sex_man",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6346004",
+      "name": "sex_woman",
+      "font_class": "sex_woman",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}

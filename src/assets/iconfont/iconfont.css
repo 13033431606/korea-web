@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3292485 */
+  src: url('iconfont.woff2?t=1653556821746') format('woff2'),
+       url('iconfont.woff?t=1653556821746') format('woff'),
+       url('iconfont.ttf?t=1653556821746') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pause-full:before {
+  content: "\ea8c";
+}
+
+.icon-zhongxinluzhi:before {
+  content: "\ea77";
+}
+
+.icon-icon_play:before {
+  content: "\e60f";
+}
+
+.icon-shuruzhengque:before {
+  content: "\e664";
+}
+
+.icon-tingzhi:before {
+  content: "\e612";
+}
+
+.icon-record-sound:before {
+  content: "\e971";
+}
+
+.icon-aixin:before {
+  content: "\e6bb";
+}
+
+.icon-lujiao-fill:before {
+  content: "\e6a1";
+}
+
+.icon-shengbo1:before {
+  content: "\e61b";
+}
+
+.icon-lianxi2hebing-10:before {
+  content: "\e627";
+}
+
+.icon-sex_man:before {
+  content: "\e611";
+}
+
+.icon-sex_woman:before {
+  content: "\e617";
+}
+

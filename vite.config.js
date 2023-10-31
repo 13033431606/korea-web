@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
+  base: '/korea-web/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),

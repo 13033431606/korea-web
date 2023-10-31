@@ -3,7 +3,10 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
 export default defineConfig({
-  base: '/korea-web/',
+  base: './',
+  build: {
+    outDir: 'docs' // 打包文件的输出目录
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
